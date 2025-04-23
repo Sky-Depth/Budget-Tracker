@@ -1,0 +1,71 @@
+h1 {
+	color : white; 
+}
+
+/* Style for the 'open' button */
+.open-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Style for the popup form */
+.form-popup {
+    display: none;  /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    z-index: 9;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Style for the input fields */
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cancel {
+    background-color: red;
+}
+
+/* Button hover effects */
+.btn:hover {
+    background-color: #45a049;
+}
+
+.cancel:hover {
+    background-color: darkred;
+}
